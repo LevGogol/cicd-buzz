@@ -19,3 +19,4 @@ script:
 
 after_success:
   - sh .travis/upload_to_dockerhub.sh
+  - sh .travis/deploy_to_server.sh
