@@ -9,8 +9,6 @@ services:
 
 language: python
 
-python: 3.6.7
-
 test:
   - python -m pytest -v
 
