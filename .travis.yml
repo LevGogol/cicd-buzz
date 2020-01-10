@@ -9,6 +9,9 @@ services:
 
 language: python
 
+cache:
+  pip: false
+
 test:
   - python -m pytest -v
 
