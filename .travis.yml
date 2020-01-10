@@ -14,8 +14,11 @@ python: 3.6.7
 install:
   - pip install numpy
 
-script:
+test:
   - python -m pytest -v
 
-after_success:
+upload:
   - sh .travis/upload_to_dockerhub.sh
+
+deploy:
+  - sh .travis/deploy_to_server.sh
