@@ -11,9 +11,6 @@ language: python
 
 python: 3.6.7
 
-install:
-  - pip install codecov
-
 test:
   - python -m pytest -v
 
