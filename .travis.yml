@@ -12,11 +12,9 @@ language: python
 cache:
   pip: false
 
-test:
+script:
   - python -m pytest -v
 
-upload:
+after_success:
   - sh .travis/upload_to_dockerhub.sh
-
-deploy:
   - sh .travis/deploy_to_server.sh
