@@ -1,2 +1,2 @@
 #!/bin/sh
-curl -X POST http://yandex.ru
+curl -X POST https://levgogol.github.io/
