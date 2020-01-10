@@ -1,2 +1,2 @@
 #!/bin/sh
-curl GET https://levgogol.github.io/
+curl -X POST https://levgogol.github.io/
