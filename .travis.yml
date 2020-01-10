@@ -1,9 +1,18 @@
 sudo: required
 
+env:
+  global:
+    - DOCKER_IMAGE=lev/cicd-buzz
+
 services:
   - docker
 
 language: python
+
+python: 3.6.7
+
+install:
+  - pip install numpy
 
 script:
   - python -m pytest -v
