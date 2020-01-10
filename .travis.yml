@@ -2,7 +2,7 @@ sudo: required
 
 env:
   global:
-    - DOCKER_IMAGE=lev/cicd-buzz
+    - DOCKER_IMAGE=levgogol/cicd-buzz
 
 services:
   - docker
